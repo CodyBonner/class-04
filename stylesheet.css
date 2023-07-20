@@ -1,4 +1,48 @@
-
 header{
-    background-color: bisque;
+    background-color: #daddd8;
+}
+
+footer{
+    background-color: #daddd8;
+}
+
+body{
+    background-color: #fafaff;
+}
+
+h1{
+    color: #1c1c1c;
+}
+
+#headera{
+    font-size: 35px;
+}
+
+#footera{
+    text-align: center;
+
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+}
+
+h4{
+    font-size: 20px;
+}
+
+#Twitch{
+    font-size: 25px;
+    color:#1c1c1c;
+    margin-left: 200px;
+    text-align: center;
+    background-color: #6441a5;
+}
+
+#smile{
+    margin-left: 150px;
+    margin-right: auto;
+    width: 250px;
+    height: auto;
 }
