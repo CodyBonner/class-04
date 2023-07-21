@@ -7,10 +7,13 @@ footer{
 }
 
 body{
+    border: 3px solid black;
     background-color: #fafaff;
 }
 
+
 h1{
+    
     color: #1c1c1c;
 }
 
@@ -30,9 +33,11 @@ footer{
 
 h4{
     font-size: 20px;
+
 }
 
 #Twitch{
+    border: 2px solid black;
     font-size: 25px;
     color:#1c1c1c;
     margin-left: 200px;
