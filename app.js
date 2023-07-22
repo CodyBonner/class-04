@@ -13,6 +13,17 @@ else if (user1 == true){
     alert("Welcome " + username);
 }
 
+ function userBenefit(userResponse, userResponse2) {
+
+    userResponse = prompt("What benefit do you receive from mowing?");
+    userResponse2 = prompt("Is this a good or a bad benefit?");
+    let finalResponse =  userResponse + " Benefit Type " +userResponse2;
+    return finalResponse
+    
+
+}
+
+
 
 // else{
    // alert("Please confirm your name!");
