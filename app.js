@@ -2,14 +2,20 @@
 
 function greeting(){
     
-    let userName = prompt("Hello! What is your name?");
+    let userName = prompt("Hello what is your name?");
     let user1 = userName;
     
-    confirm("Is your name: " +user1);
-    
-    alert("Welcome " + user1);
+   // confirm("Is your name: " + user1 +"?")
 
-    document.write("Welcome:" + user1);
+    if(confirm("Is your name: " + user1 +"?") == true){
+      alert("Welcome " + user1);
+    }
+
+    else{
+      alert("Please enter a valid name!");
+      greeting();
+    }
+
 }
 
 
